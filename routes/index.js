@@ -4,7 +4,7 @@ const apiRoutes = require('./api')
 router.use('/api', apiRoutes);
 
 router.use((req, res) => {
-    res.status(404).send('Page Not Found')
+    res.status(404).send('nothing here')
 });
 
 module.exports = router;
